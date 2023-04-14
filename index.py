@@ -1,9 +1,6 @@
-from appliances.kitchen import Dishwasher
-from appliances.laundry import Dryer
-from appliances.laundry import Washer
-from appliances.kitchen.utility import Refrigerator
+from appliances import CoffeeMaker, DishWasher, Refrigerator, Dryer, Washer
 
-whirlpool_dishwasher = Dishwasher("black")
+whirlpool_dishwasher = DishWasher("black")
 whirlpool_dishwasher.wash_dishes()
 
 samsung_washer = Washer("red")
